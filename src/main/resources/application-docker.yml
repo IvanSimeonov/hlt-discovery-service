@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: hlt-discovery-service
+  zipkin:
+    base-url: http://zipkin:9411
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
